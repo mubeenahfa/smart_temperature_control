@@ -1,0 +1,19 @@
+LCD CLOCK ->   PD0
+LCD DATA_IN -> PD3
+LCD DC ->      PD6
+LCD CHIP_E ->  PD1
+LCD RESET ->   PE1
+
+I2C_CLK ->     PA6
+I2C_DATA ->    PA7
+
+SW2 ->	       PF0
+
+POT ->	       PB4
+
+PELTIER ->     PA2
+HEATING PAD -> PA3
+
+R_LED ->       PF1
+G_LED ->       PF3
+B_LED ->       PF2

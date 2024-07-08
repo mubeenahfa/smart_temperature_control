@@ -1,0 +1,19 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\mainfile.o"
+".\objects\i2c.o"
+".\objects\r_mul.o"
+".\objects\t_mul.o"
+".\objects\wtstat.o"
+".\objects\main_proj.o"
+".\objects\led_surucu.o"
+".\objects\button.o"
+".\objects\pot_handler.o"
+".\objects\screen.o"
+".\objects\hot_cold.o"
+".\objects\keypad.o"
+".\objects\testmian.o"
+".\objects\startup_tm4c123.o"
+".\objects\system_tm4c123.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\mainproject.map" -o .\Objects\mainproject.axf
